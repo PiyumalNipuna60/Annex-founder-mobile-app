@@ -1,0 +1,60 @@
+name: annex_finder
+description: "A new Flutter project."
+publish_to: 'none' 
+
+
+environment:
+  sdk: '>=3.4.0-282.3.beta <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.1.1
+  cloud_firestore: ^5.0.2
+  google_sign_in: ^6.2.1
+  flutter_facebook_auth: ^7.1.1
+  iconsax_flutter: ^1.0.0
+  image_picker: ^1.1.2
+  firebase_storage: ^12.3.2
+  google_maps_flutter: ^2.2.3
+  geocoding: ^3.0.0
+  url_launcher: ^6.3.1
+  carousel_slider: ^5.0.0
+  intl: ^0.19.0
+  agora_rtc_engine: ^6.3.2
+  provider: ^6.1.2
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+ 
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - assets/images/
+  - assets/app_logo/
+  - assets/logo/
+  
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets\fonts\Poppins-Regular.ttf
+        - asset: assets\fonts\Poppins-Bold.ttf
+        - asset: assets\fonts\Poppins-Italic.ttf
+    - family: Oswald
+      fonts:
+        - asset: assets\fonts\Oswald-Bold.ttf
+        - asset: assets\fonts\Oswald-Regular.ttf
+        - asset: assets\fonts\Oswald-ExtraLight.ttf
+        - asset: assets\fonts\Oswald-Medium.ttf

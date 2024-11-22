@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook_app_id">1801005463764478</string>
+    <string name="fb_login_protocol_scheme">a244c5779ab538a0496a8c9fdac495de</string>
+    <string name="facebook_client_token">e23958db09230ced1c1bd50a9009dc2b</string>
+    <string name="app_name">Annex Finder</string>
+</resources>
